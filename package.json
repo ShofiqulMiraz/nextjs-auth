@@ -8,8 +8,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "next": "10.0.8",
+    "nookies": "^2.5.2",
+    "nprogress": "^0.2.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-hook-form": "^6.15.4",
+    "sass": "^1.32.8"
   }
 }
