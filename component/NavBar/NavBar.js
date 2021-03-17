@@ -18,15 +18,25 @@ export default function NavBar({ user }) {
         <div className={styles.logo}>abcd</div>
         <ul>
           <li>
-            <Link href="/">home</Link>
+            <Link href="/">
+              <a>home</a>
+            </Link>
           </li>
+          <li>
+            <Link href="/test">
+              <a>test</a>
+            </Link>
+          </li>
+
           {user ? (
             <div>
               <li onClick={handleLogout}> logout </li>
             </div>
           ) : (
             <li>
-              <Link href="/login">Login</Link>
+              <Link href="/login">
+                <a>login</a>
+              </Link>
             </li>
           )}
         </ul>
